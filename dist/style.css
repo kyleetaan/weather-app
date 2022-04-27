@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+}   
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    height: calc(100vh - 40px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#container {
+    display: flex;
+    gap: 100px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+#back{
+    height: 30px;
+}
+
+#footer {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
